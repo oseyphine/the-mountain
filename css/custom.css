@@ -1,14 +1,18 @@
-body{
+p{
+	line-height: 30px;
 
 }
-header, #about, #history, #contact{
+header, #about, #history, #contact, .btn, #lear-more, footer{
 	color: white;
 }
 #features, #blog{
-	color: grey;
+	color: #555b67;
 }
 .jumbotron, .btn{
 	border-radius: 0px;
+}
+.btn{
+	background: #f52257;
 }
 
 /*BACKGROUND*/
@@ -28,18 +32,29 @@ header{
 	background: url(../images/bg_newsletter.jpg);
 	background-size: cover;
 }
+footer{
+	background: #24323b;
+}
 
 /*HOME*/
 
 /*nav*/
-
+/*MANQUANTE*/
 /*jumbotron*/
 .jumbotron{
 	background-color: transparent;
 	text-align: center;
 }
-.boutton-align{
+.jumbotron span{
+	font-weight: bold;
+}
+.bouton-align{
 	display: flex;
+	width: 300px;
+}
+#learn-more{
+	background: #36c4c5;
+	margin-right: 15px;
 }
 
 /*FEATURES*/
@@ -49,39 +64,63 @@ header{
 
 /*ABOUT*/
 #about-right{
-	background: blue;
+	background: rgba(54, 196, 197, 0.5);
+	padding: 50px 30px;
+}
+.boxes{
+	display: flex;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}
+.about-boxes{
+	border: 1px solid white;
+	padding: 30px 30px;
 }
 
 /*BLOG*/
 #img-blog{
 	width: 475px;
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
 
 /*HISTORY*/
 #history-left{
-	background: blue;
+	background: rgba(54, 196, 197, 0.7);
 }
 
 /*PHOTOS*/
 #photo-1{
 	width: 760px;
 	height: 300px;
+	padding-right: 10px;
+	margin-top: 10px;
 }
 #photo-2{
 	width: 380px;
+	padding: 10px 0 10px 0;
 }
 #photo-3{
 	width: 380px;
+	height: 415px;
+	padding: 10px 10px;
 }
 #photo-4{
 	width: 380px;
+	padding: 0px 10px 10px 10px;
+
 }
 #photo-5{
 	width: 760px;	
+	padding-right: 10px;
 }
 #photo-6{
 	width: 380px;
 	height: 776px;	
+	margin-bottom: 10px;
+	margin-top: 10px;
+
 }
 #photo-7{
 	width: 380px;
@@ -89,13 +128,30 @@ header{
 
 /*PARTENAIRES*/
 .logo-partenaires{
-	display: flex;
+	text-align: center;
 }
 .img-partenaires{
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 /*CONTACT*/
-
+#contact input{
+	width: 300px;
+}
 /*FOOTER*/
+.fa-facebook, .fa-twitter{
+	color: #36c4c5;
+	border: 3px solid #36c4c5;
+}
+.reseaux-sociaux{
+	border: 3px solid white;
+	border-radius: 50%;
+	padding: 5px 5px;
+	margin-top: 50px;
+}
+footer span{
+	color: #36c4c5;
+}

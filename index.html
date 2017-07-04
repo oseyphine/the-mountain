@@ -13,13 +13,30 @@
   <header id="home">
     <div class="container">
       <div class="container-fluid">
+      <!-- <nav>
+        <ul>
+          <li>Home</li>
+          <li>Features</li>
+          <li>About me</li>
+          <li>My Blog</li>
+          <li>My History</li>
+          <li>Look My Photos</li>
+          <li>Get in Touch !</li>
+          <li>Download</li>
+        </ul>
+      </nav> -->
 
         <div class="jumbotron">
-          <h1>Jumbotron heading</h1>
+          <h1>In the hall of the</h1>
+          <h1><span>Mountain King</span></h1>
           <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <div class="boutton-align">
-            <p><a class="btn btn-lg btn-info" href="#" role="button">Learn more</a></p>
-            <p><a class="btn btn-lg btn-danger" href="#" role="button">Download</a></p>             
+          <div class="bouton-align">
+            <div class="bouton-jumbotron">
+              <p><a class="btn btn-lg" id="learn-more" href="#" role="button">Learn more</a></p>              
+            </div>
+            <div class="bouton-jumbotron">
+              <p><a class="btn btn-lg" href="#" role="button">Download</a></p>
+            </div>          
           </div>
         </div> <!-- jumbotron -->
         
@@ -67,13 +84,15 @@
           <h2>Ligula Mattis Ornare Ultricies</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <div class="about-boxes" id="about-box-left">
-            <p>Ultricies</p>
-            <p class="indice">23,578</p>            
-          </div>
-          <div class="about-boxes" id="about-box-right">
-            <p>Fermentum</p>
-            <p class="indice">12,702</p>              
+          <div class="boxes">
+            <div class="about-boxes" id="about-box-left">
+              <p>Ultricies</p>
+              <p class="indice">23,578</p>            
+            </div>
+            <div class="about-boxes" id="about-box-right">
+              <p>Fermentum</p>
+              <p class="indice">12,702</p>              
+            </div>
           </div>
        </div>
       </div> <!-- row -->
@@ -88,9 +107,9 @@
         <div class="row">
         <div class="col-md-7" id="blog-left">
           <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta impedit magnam architecto ab amet quod tempore cupiditate error nihil qui! Sapiente voluptate doloribus vitae amet tenetur neque, illo quam voluptates!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum natus earum vel doloribus! Velit dolorum sint assumenda recusandae, pariatur sapiente deleniti ab, dolor, aliquid modi, esse neque? Autem, deleniti perspiciatis?</p>
-          <p><a class="btn btn-lg btn-danger" href="#" role="button">Sign up today</a></p>          
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta impedit magnam architecto ab amet quod tempore cupiditate error nihil qui! Sapiente voluptate doloribus vitae amet tenetur neque, illo quam voluptates! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint repellendus facilis pariatur illum eligendi, obcaecati soluta laudantium repellat neque, alias tenetur animi perspiciatis consectetur veritatis. Magni, accusantium neque minima! Accusantium.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum natus earum vel doloribus! Velit dolorum sint assumenda recusandae, pariatur sapiente deleniti ab, dolor, aliquid modi, esse neque? Autem, deleniti perspiciatis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga expedita quos architecto nostrum, autem deleniti dolores pariatur, incidunt, ab quod aperiam, dolorem vero deserunt praesentium assumenda. Id rem minima in.</p>
+          <p><a class="btn btn-lg" href="#" role="button">Take a look →</a></p>          
         </div>
 
         <div class="col-md-5" id="blog-right">
@@ -190,11 +209,21 @@
 
   <section id="contact">
     <div class="container">
+
       <div class="container-fluid">
-        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus illo dolore unde enim nostrum nesciunt, maxime sequi commodi saepe. Quibusdam, accusamus, alias. Assumenda harum deserunt voluptatum expedita dolores possimus, fugiat.</p>
-        <p><input type="text" name="email" placeholder="Your Email Here..."></p>
-        <p><a class="btn btn-lg btn-danger" href="#" role="button">Submit Newsletter</a></p>          
+        <div class="row">
+        <div class="col-md-8">
+          <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus illo dolore unde enim nostrum nesciunt, maxime sequi commodi saepe. Quibusdam, accusamus, alias. Assumenda harum deserunt voluptatum expedita dolores possimus, fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem incidunt ut, nesciunt repudiandae sunt provident natus excepturi, dolor voluptatum totam perspiciatis voluptas maxime sit commodi unde expedita fugit doloribus laudantium!</p>
+          <p><input type="text" name="email" placeholder="Your Email Here..."></p>
+          <p><a class="btn btn-lg" href="#" role="button">Submit Newsletter</i></a></p>   
+        </div>
+
+      <div class="col-md-4">
+      </div>
+      </div> <!-- row -->
+        
+
       </div>    <!-- container-fluid  -->
     </div>   <!-- container --> 
   </section>  <!-- contact -->
@@ -209,12 +238,11 @@
           </div>
 
           <div class="col-md-3">
-            <i class="fa fa-facebook fa-lg"></i>
-            <i class="fa fa-twitter fa-lg"></i>
-            <i class="fa fa-tumblr fa-lg"></i>
-            <i class="fa fa-github-alt fa-lg"></i>
-            <i class="fa fa-dribbble fa-lg"></i>
-
+            <i class="fa fa-facebook fa-lg reseaux-sociaux"></i>
+            <i class="fa fa-twitter fa-lg reseaux-sociaux"></i>
+            <i class="fa fa-tumblr fa-lg reseaux-sociaux"></i>
+            <i class="fa fa-github-alt fa-lg reseaux-sociaux"></i>
+            <i class="fa fa-dribbble fa-lg reseaux-sociaux"></i>
           </div>  
           </div> <!-- row --> 
         
