@@ -50,8 +50,10 @@ footer{
 }
 .bouton-align{
 	display: flex;
-	width: 300px;
+	justify-content: center;
+	align-items: center;
 }
+
 #learn-more{
 	background: #36c4c5;
 	margin-right: 15px;
@@ -70,12 +72,14 @@ footer{
 .boxes{
 	display: flex;
 	text-align: center;
-	width: 100px;
-	height: 100px;
+	justify-content: center;
+	align-items: center;
+
 }
 .about-boxes{
 	border: 1px solid white;
 	padding: 30px 30px;
+	margin-right: 30px;
 }
 
 /*BLOG*/
