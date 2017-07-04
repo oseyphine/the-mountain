@@ -1,0 +1,101 @@
+body{
+
+}
+header, #about, #history, #contact{
+	color: white;
+}
+#features, #blog{
+	color: grey;
+}
+.jumbotron, .btn{
+	border-radius: 0px;
+}
+
+/*BACKGROUND*/
+header{
+	background: url(../images/bg_header.jpg);
+	background-size: cover;
+}
+#about{
+	background: url(../images/bg_nuage.jpg);
+	background-size: cover;
+}
+#history{
+	background: url(../images/bg_appareil_photo.jpg);
+	background-size: cover;
+}
+#contact{
+	background: url(../images/bg_newsletter.jpg);
+	background-size: cover;
+}
+
+/*HOME*/
+
+/*nav*/
+
+/*jumbotron*/
+.jumbotron{
+	background-color: transparent;
+	text-align: center;
+}
+.boutton-align{
+	display: flex;
+}
+
+/*FEATURES*/
+#features{
+	text-align: center;
+}
+
+/*ABOUT*/
+#about-right{
+	background: blue;
+}
+
+/*BLOG*/
+#img-blog{
+	width: 475px;
+}
+
+/*HISTORY*/
+#history-left{
+	background: blue;
+}
+
+/*PHOTOS*/
+#photo-1{
+	width: 760px;
+	height: 300px;
+}
+#photo-2{
+	width: 380px;
+}
+#photo-3{
+	width: 380px;
+}
+#photo-4{
+	width: 380px;
+}
+#photo-5{
+	width: 760px;	
+}
+#photo-6{
+	width: 380px;
+	height: 776px;	
+}
+#photo-7{
+	width: 380px;
+}
+
+/*PARTENAIRES*/
+.logo-partenaires{
+	display: flex;
+}
+.img-partenaires{
+	width: 200px;
+	height: 200px;
+}
+
+/*CONTACT*/
+
+/*FOOTER*/
